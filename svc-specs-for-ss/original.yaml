@@ -2,7 +2,7 @@ proton: ServiceSpec
 
 pipeline:
   my_sample_pipeline_optional_input: "abcdef"
-  my_sample_pipeline_required_input: "uselesschange"
+  my_sample_pipeline_required_input: "uselesschange1"
 
 instances:
   - name: "load-test-svc-instance-h"
@@ -10,3 +10,4 @@ instances:
     spec:
       my_sample_service_instance_optional_input: "BAD"
       my_sample_service_instance_required_input: "AWFUL"
+
