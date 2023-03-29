@@ -31,3 +31,4 @@ sync:
             load-test-svc-instance-j: 
                 branch: devj
                 spec: ./svc-specs-for-ss/original.yaml
+                
