@@ -1,6 +1,6 @@
 sync:
     services:
-        load-test-svc:
+        load-test-svca2:
             load-test-svc-instance1: 
                 branch: main
                 spec: ./svc-specs-for-ss/original.yaml
